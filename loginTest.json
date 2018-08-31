@@ -22,7 +22,8 @@
     "result" : "0"
   },
 "checkToken":{
- "body" : {
+ "body" : [
+      {
         "platformAccount" : "18612130476",
         "platformId" : "1",
         "platformUserId" : "100267508515",
@@ -30,6 +31,15 @@
         "provinceName" : "北京",
         "role" : "1"
       },
+      {
+        "platformAccount" : "18612130476",
+        "platformId" : "1",
+        "platformUserId" : "100267508515",
+        "provinceId" : "2",
+        "provinceName" : "天津",
+        "role" : "1"
+      }
+    ],
     "desc" : "成功",
     "result" : "0"
 
