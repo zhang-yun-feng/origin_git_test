@@ -28,7 +28,7 @@
         "platformId" : "1",
         "platformUserId" : "100267508515",
         "provinceId" : "1",
-        "provinceName" : "北京",
+        "provinceName" : "北京市",
         "role" : "1"
       },
       {
@@ -36,7 +36,7 @@
         "platformId" : "1",
         "platformUserId" : "100267508515",
         "provinceId" : "2",
-        "provinceName" : "天津",
+        "provinceName" : "河北省",
         "role" : "1"
       }
     ],
