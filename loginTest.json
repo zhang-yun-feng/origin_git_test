@@ -6,7 +6,7 @@
         "platformId" : "1",
         "platformUserId" : "100267508515",
         "provinceId" : "1",
-        "provinceName" : "北京",
+        "provinceName" : "北京市",
         "role" : "1"
       },
       {
@@ -14,15 +14,15 @@
         "platformId" : "1",
         "platformUserId" : "100267508515",
         "provinceId" : "2",
-        "provinceName" : "天津",
+        "provinceName" : "河北省",
         "role" : "1"
       }
     ],
     "desc" : "成功",
     "result" : "0"
   },
-"checkToken":{
- "body" : [
+  "checkToken" : {
+    "body" : [
       {
         "platformAccount" : "18612130476",
         "platformId" : "1",
@@ -42,7 +42,5 @@
     ],
     "desc" : "成功",
     "result" : "0"
-
-}
-
+  }
 }
