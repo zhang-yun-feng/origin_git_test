@@ -7,7 +7,8 @@
         "platformUserId" : "100267508515",
         "provinceId" : "1",
         "provinceName" : "北京市",
-        "role" : "1"
+        "role" : "1",
+        "userId" : "100267508515"
       },
       {
         "platformAccount" : "18612130476",
@@ -15,7 +16,8 @@
         "platformUserId" : "100267508515",
         "provinceId" : "2",
         "provinceName" : "河北省",
-        "role" : "1"
+        "role" : "1",
+        "userId" : "100267508515"
       }
     ],
     "desc" : "成功",
