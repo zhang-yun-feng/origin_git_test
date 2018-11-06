@@ -1,0 +1,47 @@
+<html>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta content="width=device-width,initial-scale=1,user-scalable=no" name="viewport">
+<body>
+  <script type="text/javascript">
+  var nativeCallJS = function(parameter) {
+   alert (parameter);
+  };
+  
+  function aaa(){
+		var appUrl = 'andeduv3://';
+      alert('你好');
+<!--      window.location.href = "";-->
+     location.href = 'ios_appPayFinish';
+     if (appUrl != '') {
+         alert("准备拉起APP");
+         setTimeout(function(){
+                    window.location.href = "andeduv3://";
+                    },3000);
+     }
+
+<!--      jsCallNative({-->
+<!--                   count: 1, // 默认9-->
+<!--                   sizeType: ['original', 'compressed'], // 可以指定是原图还是压缩图，默认二者都有-->
+<!--                   sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有-->
+<!--                   success: function (res) {-->
+<!--<!--                   var localIds = res.localIds;-->-->
+<!--                    alert(res)// 返回选定照片的本地ID列表，localId可以作为img标签的src属性显示图片-->
+<!--                   }-->
+<!--                   });-->
+
+<!--                   jsCallNative(function (ret) {-->
+<!--                                alert(ret)-->
+<!--                                })-->
+
+  }
+  
+  function aaa1(){
+      eduapp.test1();
+  }
+  
+  </script>
+  <button type="button" onclick = "aaa()" style="width:100%; height:30px;"/>调用OC代码</button>
+  <button type='button' onclick = 'aaa1()' style="width:100%; height:30px;"/>调用OC1代码</button>
+  <input accept="image" type="file"/>
+</body>
+</html>
